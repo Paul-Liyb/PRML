@@ -1,0 +1,21 @@
+# Fdb version 4
+["xdvipdfmx"] 0 "main.xdv" "main.pdf" "main" 0 -1
+  "main.xdv" 1681094067 56676 11d929e66c0fb65403888f6433cc12c4 "xelatex"
+  (generated)
+  "main.pdf"
+  (rewritten before read)
+["xelatex"] 1681123585 "c:/Users/Paul/Desktop/files/大二下/模式识别/预研/预研报告/tex文件/main.tex" "main.xdv" "main" 1681123586 2
+  "c:/Users/Paul/Desktop/files/大二下/模式识别/预研/预研报告/tex文件/main.tex" 1681123530 8708 42a3ffc6f3a7478c086d54691e711d2f ""
+  "c:/texlive/2022/texmf-dist/tex/latex/base/article.cls" 1677086742 20144 d5ecf0a5140c8d8d8b72cbe86e320eff ""
+  "c:/texlive/2022/texmf-dist/tex/latex/base/size12.clo" 1677086742 8449 c314623021fbddd0180c05345324933c ""
+  "c:/texlive/2022/texmf-dist/web2c/texmf.cnf" 1677079797 40171 cdab547de63d26590bebb3baff566530 ""
+  "c:/texlive/2022/texmf-var/web2c/xetex/xelatex.fmt" 1677090558 10497118 0812225a6ab395038b000dbefab23e26 ""
+  "c:/texlive/2022/texmf.cnf" 1677090313 713 e69b156964470283e0530f5060668171 ""
+  "config.tex" 0 -1 0 ""
+  "main.aux" 1681123585 34 3985256e7290058c681f74d7a3565a19 "xelatex"
+  "main.tex" 1681123530 8708 42a3ffc6f3a7478c086d54691e711d2f ""
+  (generated)
+  "main.aux"
+  "main.log"
+  "main.xdv"
+  (rewritten before read)

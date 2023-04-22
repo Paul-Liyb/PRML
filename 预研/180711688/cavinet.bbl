@@ -1,0 +1,394 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{31}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{??}{vis}{2015}]%
+        {vis6}
+ \bibinfo{year}{2015}\natexlab{}.
+\newblock \bibinfo{title}{Inceptionism: Going deeper into neural networks}.
+\newblock
+  \bibinfo{howpublished}{\url{https://research.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html}}.
+    (\bibinfo{year}{2015}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{??}{Bin}{2018}]%
+        {BingSearch}
+ \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{title}{Bing Image Search API}.
+\newblock   (\bibinfo{year}{2018}).
+\newblock
+\showURL{%
+\url{https://azure.microsoft.com/en-us/try/cognitive-services/?api=bing-image-search-api}}
+\newblock
+\shownote{Accessed on 15-09-2017.}
+
+
+\bibitem[\protect\citeauthoryear{Abacı and Akgül}{Abacı and Akgül}{2015}]%
+        {rw3}
+\bibfield{author}{\bibinfo{person}{Bahri Abacı} {and} \bibinfo{person}{Tayfun
+  Akgül}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Matching caricatures to photographs}.
+\newblock \bibinfo{journal}{{\em Signal Image and Video Processing\/}}
+  (\bibinfo{year}{2015}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Amos, Ludwiczuk, and Satyanarayanan}{Amos
+  et~al\mbox{.}}{2016}]%
+        {amos2016openface}
+\bibfield{author}{\bibinfo{person}{Brandon Amos}, \bibinfo{person}{Bartosz
+  Ludwiczuk}, {and} \bibinfo{person}{Mahadev Satyanarayanan}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em OpenFace: A general-purpose face recognition
+  library with mobile applications}}.
+\newblock \bibinfo{type}{{T}echnical {R}eport}.
+  \bibinfo{institution}{CMU-CS-16-118, CMU School of Computer Science}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Chang, Nie, and Wang}{Chang
+  et~al\mbox{.}}{2017}]%
+        {sharedSubspace}
+\bibfield{author}{\bibinfo{person}{Yan-Shuo Chang}, \bibinfo{person}{Feiping
+  Nie}, {and} \bibinfo{person}{Ming-Yu Wang}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Multiview Feature Analysis via Structured Sparsity
+  and Shared Subspace Discovery}.
+\newblock  (\bibinfo{year}{2017}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Cortes and Vapnik}{Cortes and Vapnik}{1995}]%
+        {svm}
+\bibfield{author}{\bibinfo{person}{Corinna Cortes} {and}
+  \bibinfo{person}{Vladimir Vapnik}.} \bibinfo{year}{1995}\natexlab{}.
+\newblock \showarticletitle{Support-Vector Networks}. In
+  \bibinfo{booktitle}{{\em Machine Learning}}. \bibinfo{pages}{273--297}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Crowley}{Crowley}{2015}]%
+        {rw4}
+\bibfield{author}{\bibinfo{person}{Parkhi O.M. Zisserman~A. Crowley, E.J.}}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Face painting: querying art with photos}. In
+  \bibinfo{booktitle}{{\em Proceedings of the British Machine Vision
+  Conference}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Csurka, Dance, Fan, Willamowski, and
+  Bray}{Csurka et~al\mbox{.}}{2004}]%
+        {visual_bow}
+\bibfield{author}{\bibinfo{person}{Gabriella Csurka},
+  \bibinfo{person}{Christopher~R. Dance}, \bibinfo{person}{Lixin Fan},
+  \bibinfo{person}{Jutta Willamowski}, {and} \bibinfo{person}{Cédric Bray}.}
+  \bibinfo{year}{2004}\natexlab{}.
+\newblock \showarticletitle{Visual categorization with bags of keypoints}. In
+  \bibinfo{booktitle}{{\em Workshop on Statistical Learning in Computer Vision,
+  ECCV}}. \bibinfo{pages}{1--22}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Dalal and Triggs}{Dalal and Triggs}{2005}]%
+        {hog}
+\bibfield{author}{\bibinfo{person}{Navneet Dalal} {and} \bibinfo{person}{Bill
+  Triggs}.} \bibinfo{year}{2005}\natexlab{}.
+\newblock \showarticletitle{Histograms of Oriented Gradients for Human
+  Detection}. In \bibinfo{booktitle}{{\em IEEE Computer Vision and Pattern
+  Recognition (CVPR)}}. \bibinfo{pages}{886--893}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Geng and Jiang}{Geng and Jiang}{2009}]%
+        {face_sift2}
+\bibfield{author}{\bibinfo{person}{Cong Geng} {and} \bibinfo{person}{X.
+  Jiang}.} \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{Face recognition using sift features}. In
+  \bibinfo{booktitle}{{\em 2009 16th IEEE International Conference on Image
+  Processing (ICIP)}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hadsell, Chopra, and LeCun}{Hadsell
+  et~al\mbox{.}}{2006}]%
+        {contrastive}
+\bibfield{author}{\bibinfo{person}{Raia Hadsell}, \bibinfo{person}{Sumit
+  Chopra}, {and} \bibinfo{person}{Yann LeCun}.}
+  \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{Dimensionality Reduction by Learning an Invariant
+  Mapping}. In \bibinfo{booktitle}{{\em IEEE Conference on Computer Vision and
+  Pattern Recognition (CVPR)}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{He, Wu, Sun, and Tan}{He
+  et~al\mbox{.}}{2017}]%
+        {AAAI_2017}
+\bibfield{author}{\bibinfo{person}{Ran He}, \bibinfo{person}{Xiang Wu},
+  \bibinfo{person}{Zhenan Sun}, {and} \bibinfo{person}{Tieniu Tan}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Learning Invariant Deep Representation for NIR-VIS
+  Face Recognition}. In \bibinfo{booktitle}{{\em The Thirty-First AAAI
+  Conference on Artificial Intelligence}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Huang, Ramesh, Berg, and Learned-Miller}{Huang
+  et~al\mbox{.}}{2007}]%
+        {LFWTech}
+\bibfield{author}{\bibinfo{person}{Gary~B. Huang}, \bibinfo{person}{Manu
+  Ramesh}, \bibinfo{person}{Tamara Berg}, {and} \bibinfo{person}{Erik
+  Learned-Miller}.} \bibinfo{year}{2007}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em Labeled Faces in the Wild: A Database for
+  Studying Face Recognition in Unconstrained Environments}}.
+\newblock \bibinfo{type}{{T}echnical {R}eport} 07-49.
+  \bibinfo{institution}{University of Massachusetts, Amherst}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Huo, Gao, Shi, Yang, and Yin}{Huo
+  et~al\mbox{.}}{2016}]%
+        {ACM_huo_cross_modal}
+\bibfield{author}{\bibinfo{person}{Jing Huo}, \bibinfo{person}{Yang Gao},
+  \bibinfo{person}{Yinghuan Shi}, \bibinfo{person}{Wanqi Yang}, {and}
+  \bibinfo{person}{Hujun Yin}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Ensemble of Sparse Cross-Modal Metrics for
+  Heterogeneous Face Recognition}. In \bibinfo{booktitle}{{\em Proceedings of
+  the 2016 ACM on Multimedia Conference}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Huo, li, Shi, Gao, and Yin}{Huo
+  et~al\mbox{.}}{2017a}]%
+        {rw5}
+\bibfield{author}{\bibinfo{person}{Jing Huo}, \bibinfo{person}{Wenbin li},
+  \bibinfo{person}{Yinghuan Shi}, \bibinfo{person}{Yang Gao}, {and}
+  \bibinfo{person}{Hujun Yin}.} \bibinfo{year}{2017}\natexlab{a}.
+\newblock \showarticletitle{WebCaricature: a benchmark for caricature face
+  recognition}.
+\newblock  (\bibinfo{year}{2017}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Huo, Shi, Gao, and Yin}{Huo
+  et~al\mbox{.}}{2017b}]%
+        {newWebCari_Paper}
+\bibfield{author}{\bibinfo{person}{Jing Huo}, \bibinfo{person}{Yinghuan Shi},
+  \bibinfo{person}{Yang Gao}, {and} \bibinfo{person}{Hujun Yin}.}
+  \bibinfo{year}{2017}\natexlab{b}.
+\newblock \showarticletitle{Variation Robust Cross-Modal Metric Learning for
+  Caricature Recognition}. In \bibinfo{booktitle}{{\em ACM Multimedia Thematic
+  Workshops}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Klare and K~Jain}{Klare and K~Jain}{2013}]%
+        {hfrKlare}
+\bibfield{author}{\bibinfo{person}{Brendan Klare} {and} \bibinfo{person}{Anil
+  K~Jain}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Heterogeneous Face Recognition Using Kernel
+  Prototype Similarities}.
+\newblock   \bibinfo{volume}{35} (\bibinfo{year}{2013}),
+  \bibinfo{pages}{1410--1422}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Klare}{Klare}{2012}]%
+        {rw1}
+\bibfield{author}{\bibinfo{person}{Bucak S.S. Jain A.K. and Akgul~T. Klare,
+  B.F.}} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Towards Automated Caricature Recognition}. In
+  \bibinfo{booktitle}{{\em Proceedings of the International Conference on
+  Biometrics}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Luo, Ma, Takikawa, Lao, Kawade, and Lu}{Luo
+  et~al\mbox{.}}{2007}]%
+        {face_sift1}
+\bibfield{author}{\bibinfo{person}{Jun Luo}, \bibinfo{person}{Yong Ma},
+  \bibinfo{person}{Erina Takikawa}, \bibinfo{person}{Shihong Lao},
+  \bibinfo{person}{Masato Kawade}, {and} \bibinfo{person}{Bao-Liang. Lu}.}
+  \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{Person-Specific SIFT Features for Face
+  Recognition}. In \bibinfo{booktitle}{{\em IEEE International Conference on
+  Acoustics, Speech and Signal Processing - ICASSP '07}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Mishra and Jawahar}{Mishra and
+  Jawahar}{2016}]%
+        {MishraECCV16}
+\bibfield{author}{\bibinfo{person}{Nandan Rai S. Mishra~A. Mishra, A.} {and}
+  \bibinfo{person}{C.~V. Jawahar}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{IIIT-CFW: A Benchmark Database of Cartoon Faces in
+  the Wild}. In \bibinfo{booktitle}{{\em VASE ECCVW}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Ouyang, Hospedales, Song, and Li}{Ouyang
+  et~al\mbox{.}}{2014}]%
+        {rw2}
+\bibfield{author}{\bibinfo{person}{Shuxin Ouyang}, \bibinfo{person}{Timothy
+  Hospedales}, \bibinfo{person}{Yi-Zhe Song}, {and} \bibinfo{person}{Xueming
+  Li}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Cross-modal face matching: beyond viewed sketches}.
+  In \bibinfo{booktitle}{{\em Proceedings of the Asian Conference on Computer
+  Vision}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Parkhi, Vedaldi, and Zisserman}{Parkhi
+  et~al\mbox{.}}{2015}]%
+        {Parkhi15}
+\bibfield{author}{\bibinfo{person}{Omkar.~M. Parkhi}, \bibinfo{person}{Andrea
+  Vedaldi}, {and} \bibinfo{person}{Andrew Zisserman}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Deep Face Recognition}. In \bibinfo{booktitle}{{\em
+  Proceedings of the British Machine Vision Conference}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Schroff, Kalenichenko, and Philbin}{Schroff
+  et~al\mbox{.}}{2015}]%
+        {Facenet}
+\bibfield{author}{\bibinfo{person}{Florian Schroff}, \bibinfo{person}{Dmitry
+  Kalenichenko}, {and} \bibinfo{person}{James Philbin}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{FaceNet: A unified embedding for face recognition
+  and clustering}. In \bibinfo{booktitle}{{\em IEEE Conference on Computer
+  Vision and Pattern Recognition (CVPR)}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Shu, Qi, Tang, and Wang}{Shu
+  et~al\mbox{.}}{2015}]%
+        {ACM_weak_shared}
+\bibfield{author}{\bibinfo{person}{Xiangbo Shu}, \bibinfo{person}{Guo-Jun Qi},
+  \bibinfo{person}{Jinhui Tang}, {and} \bibinfo{person}{Jingdong Wang}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Weakly-Shared Deep Transfer Networks for
+  Heterogeneous-Domain Knowledge Propagation}. In \bibinfo{booktitle}{{\em
+  Proceedings of the 23rd ACM International Conference on Multimedia}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Simonyan, Vedaldi, and Zisserman}{Simonyan
+  et~al\mbox{.}}{2014}]%
+        {vis2}
+\bibfield{author}{\bibinfo{person}{Karen Simonyan}, \bibinfo{person}{Andrea
+  Vedaldi}, {and} \bibinfo{person}{Andrew Zisserman}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Deep inside convolutional networks: Visualising
+  image classification models and saliency maps}. In \bibinfo{booktitle}{{\em
+  ICLR workshop}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Srivastava, Hinton, Krizhevsky, Sutskever, and
+  Salakhutdinov}{Srivastava et~al\mbox{.}}{2014}]%
+        {dropout_sri}
+\bibfield{author}{\bibinfo{person}{Nitish Srivastava},
+  \bibinfo{person}{Geoffrey Hinton}, \bibinfo{person}{Alex Krizhevsky},
+  \bibinfo{person}{Ilya Sutskever}, {and} \bibinfo{person}{Ruslan
+  Salakhutdinov}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Dropout: A Simple Way to Prevent Neural Networks
+  from Overfitting}.
+\newblock \bibinfo{journal}{{\em Journal of Machine Learning Research\/}}
+  (\bibinfo{year}{2014}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Szegedy, Liu, Jia, Sermanet, Reed, Anguelov,
+  Erhan, Vanhoucke, and Rabinovich}{Szegedy et~al\mbox{.}}{2015}]%
+        {inception}
+\bibfield{author}{\bibinfo{person}{Christian Szegedy}, \bibinfo{person}{Wei
+  Liu}, \bibinfo{person}{Yangqing Jia}, \bibinfo{person}{Pierre Sermanet},
+  \bibinfo{person}{Scott Reed}, \bibinfo{person}{Dragomir Anguelov},
+  \bibinfo{person}{Dumitru Erhan}, \bibinfo{person}{Vincent Vanhoucke}, {and}
+  \bibinfo{person}{Andrew Rabinovich}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Going Deeper with Convolutions}. In
+  \bibinfo{booktitle}{{\em IEEE Computer Vision and Pattern Recognition
+  (CVPR)}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Viola and Jones}{Viola and Jones}{2001}]%
+        {Viola_jones}
+\bibfield{author}{\bibinfo{person}{Paul Viola} {and} \bibinfo{person}{Michael
+  Jones}.} \bibinfo{year}{2001}\natexlab{}.
+\newblock \showarticletitle{Robust Real-time Object Detection}.
+\newblock \bibinfo{journal}{{\em International Journal of Computer Vision\/}}
+  (\bibinfo{year}{2001}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Wolf}{Wolf}{2011}]%
+        {youtube}
+\bibfield{author}{\bibinfo{person}{Hassner Tal Maoz~Itay Wolf, Lior}.}
+  \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Face Recognition in Unconstrained Videos with
+  Matched Background Similarity}. In \bibinfo{booktitle}{{\em Proceedings of
+  the IEEE International Conference on Computer Vision and Pattern
+  Recognition}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Yosinski, Clune, Anh, Fuchs, and
+  Lipson}{Yosinski et~al\mbox{.}}{2015}]%
+        {vis4}
+\bibfield{author}{\bibinfo{person}{Jason Yosinski}, \bibinfo{person}{Jeff
+  Clune}, \bibinfo{person}{Nguyen Anh}, \bibinfo{person}{Thomas Fuchs}, {and}
+  \bibinfo{person}{Hod Lipson}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Understanding neural networks through deep
+  visualization}. In \bibinfo{booktitle}{{\em Deep Learning Workshop, ICML}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Zeiler and Fergus}{Zeiler and Fergus}{2014}]%
+        {Zeiler14visualizingand}
+\bibfield{author}{\bibinfo{person}{Matthew~D. Zeiler} {and}
+  \bibinfo{person}{Rob Fergus}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Visualizing and understanding convolutional
+  networks}. In \bibinfo{booktitle}{{\em Computer Vision-ECCV 2014}}.
+  \bibinfo{publisher}{Springer}, \bibinfo{pages}{818--833}.
+\newblock
+
+
+\end{thebibliography}
