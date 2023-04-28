@@ -1,0 +1,99 @@
+% 杂项宏包
+\usepackage[colorlinks,linkcolor=blue]{hyperref}  % 超链接
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{indentfirst}
+\usepackage{algorithm}   % 代码块
+\usepackage{algorithmicx}   % 代码块
+\usepackage{algpseudocode}   % 代码块 
+\usepackage{graphicx}  % 图片
+\usepackage{subfigure}  % 并排图像
+\usepackage{fontspec}
+%\usepackage{parskip}
+\usepackage[]{caption2}  % 去掉图表的冒号
+\renewcommand{\captionlabeldelim}{}  % 去掉图表的冒号
+\usepackage{booktabs} % 三线表
+\usepackage{pdfpages}  % 直接插入pdf页面
+\usepackage{caption}
+
+% \setlength{\parindent}{2em}
+
+% 字体设置
+\usepackage{xeCJK}
+%%%%%%%%%%% CJK下设置中文字体 %%%%%%%%%%%%%
+\setCJKfamilyfont{song}{SimSun.ttf}
+\newcommand{\song}{\CJKfamily{song}}
+\setCJKfamilyfont{kai}{simkai.ttf}
+\newcommand{\kai}{\CJKfamily{kai}}
+\setCJKfamilyfont{fang}{simfang.ttf}
+\newcommand{\fang}{\CJKfamily{fang}}
+\setCJKfamilyfont{hei}{simhei.ttf}
+\newcommand{\hei}{\CJKfamily{hei}}
+\setCJKfamilyfont{li}{SIMLI.TTF}
+\newcommand{\li}{\CJKfamily{li}}
+\setmainfont{times.ttf}  % 英文字体
+\setsansfont{Source Sans Pro}
+\setmonofont{simkai.ttf}
+\setCJKmainfont{SimSun.ttf}  % 中文字体
+\setCJKsansfont{simhei.ttf}
+\setCJKmonofont{simkai.ttf}
+
+
+\usepackage{gbt7714}  % 国标参考文献
+\renewcommand\refname{\hei \sihao 参考文献}
+
+% 页面布局设置
+\usepackage{geometry}
+\geometry{a4paper, scale=0.8}  % 页面边距
+% \setlength{\parskip}{1.15em}  % 段落之间空 0.5 行
+
+
+% 其他设置
+%%%%%%%%%%%  设置字体大小 %%%%%%%%%%%%%
+\newcommand{\chuhao}{\fontsize{42pt}{\baselineskip}\selectfont}   %%%初号字体
+\newcommand{\xiaochuhao}{\fontsize{36pt}{\baselineskip}\selectfont}    %%%小初号字体
+\newcommand{\yihao}{\fontsize{28pt}{\baselineskip}\selectfont}   %%%一号字体，以此类推
+\newcommand{\erhao}{\fontsize{21pt}{\baselineskip}\selectfont}
+\newcommand{\xiaoerhao}{\fontsize{18pt}{\baselineskip}\selectfont}
+\newcommand{\sanhao}{\fontsize{15.75pt}{\baselineskip}\selectfont}
+\newcommand{\sihao}{\fontsize{14pt}{\baselineskip}\selectfont}
+\newcommand{\xiaosihao}{\fontsize{12pt}{\baselineskip}\selectfont}
+\newcommand{\wuhao}{\fontsize{10.5pt}{\baselineskip}\selectfont}
+\newcommand{\xiaowuhao}{\fontsize{9pt}{\baselineskip}\selectfont}
+\newcommand{\liuhao}{\fontsize{7.875pt}{\baselineskip}\selectfont}
+\newcommand{\qihao}{\fontsize{5.25pt}{\baselineskip}\selectfont}
+
+%%%% 设置 section 属性 %%%%
+\makeatletter  
+\renewcommand\section{\@startsection{section}{1}{\z@}%
+	{-1.5ex \@plus -.5ex \@minus -.2ex}%
+	{.5ex \@plus .1ex}%
+	{\normalfont\sihao\fang}}  %%这边要是不想要宋体三号字，可以把song改成之前定义的字体和字号。
+	%{\normalfont\sihao\CJKfamily{fs}}}  %%比如改成仿宋四号，前面定义好了，后面只需要改几个字母就可以了。
+\makeatother
+%%%% 设置 subsection 属性 %%%%
+\makeatletter
+\renewcommand\subsection{\@startsection{subsection}{1}{\z@}%
+	{-1.25ex \@plus -.5ex \@minus -.2ex}%
+	{.4ex \@plus .1ex}%
+	{\normalfont\wuhao\hei}}
+\makeatother
+%%%% 设置 subsubsection 属性 %%%%
+\makeatletter
+\renewcommand\subsubsection{\@startsection{subsubsection}{1}{\z@}%
+	{-1ex \@plus -.5ex \@minus -.2ex}%
+	{.3ex \@plus .1ex}%
+	{\normalfont\wuhao\song}}
+\makeatother
+% 章节从 0 开始
+\setcounter{section}{-1}
+
+% 算法标题设置
+\floatname{algorithm}{\xiaowuhao 算法}  
+\renewcommand{\algorithmicrequire}{\textbf{输入:}}  
+\renewcommand{\algorithmicensure}{\textbf{输出:}} 
+
+\renewcommand{\figurename}{\xiaowuhao \hei 图}
+\renewcommand{\tablename}{\xiaowuhao \hei 表}
+\captionsetup[figure]{format=plain}
