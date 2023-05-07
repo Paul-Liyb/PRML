@@ -3,5 +3,8 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tonic_braincog" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/参考/2019/Caricature-Photo-Recognition" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/参考/2020/Cartoon-face-recognition" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/参考/cari-visual-recognition-via-multitask-learning" vcs="Git" />
   </component>
 </project>
